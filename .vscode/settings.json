@@ -117,11 +117,14 @@
   "cmake.ignoreCMakeListsMissing": true,
   "C_Cpp_Runner.msvcBatchPath": "",
   "clangd.arguments": [
-    "--compile-commands-dir=/Users/franz/GIT_HUB/ITS-BRD-VSC/Programs/Karl/out/Karl/ITSboard/Debug"
+    "--compile-commands-dir=c:\\Users\\jaro\\Documents\\Hochschule\\ITS-BRD-VSC\\Programs\\A2ASM\\out\\A2ASM\\ITSboard_Assembly\\Debug"
   ],
   "debug.hideSlowPreLaunchWarning": true,
   "debug.showInStatusBar": "never",
   "files.associations": {
     "*.s": "arm-debugger.arm"
-  }
+  },
+  "python.analysis.extraPaths": [
+    "c:\\Users\\jaro\\.vcpkg\\artifacts\\2139c4c6\\debuggers.arm.armdbg\\6.9.0\\sw\\osgi\\plugins\\com.arm.debug.interpreter.jython.api_6.9.0.202604091206"
+  ]
 }
