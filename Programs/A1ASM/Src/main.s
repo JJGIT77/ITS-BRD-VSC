@@ -27,7 +27,7 @@ GPIO_D_CLR          equ (GPIOD_BASE + 0x1A)
     ALIGN
 main
     BL initITSboard             ; needed by the board to setup
-    nop                         ; no operation
+;    nop                         ; no operation
     LDR     R6, =GPIO_D_SET     ; get address of the GPIO data set register
     LDR     R7, =GPIO_D_CLR     ; get address of the GPIO data clear register
     MOV     R0, #0x01           ; load mask 0b0001
